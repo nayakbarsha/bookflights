@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="block1">
+    {% if success %}
+        <h1>Booking confirmed for {{name}}!</h1>
+    {% else %}
+        <h1>Couldn't book ticket for {{name}}</h1>
+    {% endif %}
+<img src="https://static.vecteezy.com/system/resources/previews/000/620/372/non_2x/aircraft-airplane-airline-logo-label-journey-air-travel-airliner-symbol-vector-illustration.jpg">
+
+</div>
+{% endblock %}
